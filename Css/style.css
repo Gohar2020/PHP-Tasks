@@ -1,0 +1,39 @@
+.card {
+  width: 32%;
+  margin-left: 1%;
+}
+img {
+  width: 100%;
+}
+
+.todo {
+  background: #2fcc9a;
+  border: 2px solid #228e6c;
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 50%;
+}
+ul {
+  padding: 0 10px !important;
+}
+ul li {
+  list-style: none;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fcfcfc;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+ul li button {
+  border: 0;
+  padding: 5px 15px;
+  color: white;
+  font-size: 13px;
+  background: #db5757;
+  position: relative;
+  float: right;
+  border-radius: 5px;
+}
+ul li button:hover {
+  background: #a04141;
+}
